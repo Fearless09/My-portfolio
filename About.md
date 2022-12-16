@@ -1,5 +1,5 @@
 ```
-This is my personal profile
+This is my personal portfolio
 ```
 
 # Hi 👋, I'm Ajayi Toheeb Opeyemi, a student of Information Technology at Federal University of Technolgy, Akure. Also an entry-level Front-End Developer.
