@@ -4,9 +4,15 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>ajayitoheeb - Portfolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon" type="image/jpeg" sizes="32x32" href="./Images/WhatsApp Image 2021-04-24 at 3.12.22 PM.jpeg">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <script src="./dist/js/bootstrap.bundle.min.js" defer></script>
+
     <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+
 </head>
 
 <body>
@@ -82,8 +88,26 @@
 
             <div class="wrapper hero_wrapper">
                 <div class="hero_image">
-                    <img src="./Images/WhatsApp Image 2021-04-24 at 3.12.22 PM.jpeg" alt="Picture of Ajayi Toheeb"
-                        class="avatar">
+                    <!-- Bootstrap carousel -->
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <!-- Indicator -->
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                        </div>
+
+                        <!-- Images -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./Images/avatar.JPG" class="d-block w-100 | avatar" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./Images/avatar-2.JPG" class="d-block w-100 | avatar" alt="...">
+                            </div>
+                        </div>
+                    </div>
 
                     <img src="./Images/pattern-circle.svg" alt="" class="hero_circle">
                 </div>
@@ -149,13 +173,14 @@
                 </div>
 
                 <div class="project_grid">
+                    <!-- Blogr Landing Page Project -->
                     <div class="projects_item">
-                        <img src="./Images/thumbnail-project-1-large.webp" alt="" class="project_image">
-                        <h3 class="projects_name">Design Portfolio</h3>
+                        <img src="./Images/blogr-desktop-preview.jpg" alt="" class="project_image">
+                        <h3 class="projects_name">Blogr Landing Page</h3>
                         <p class="projects_tags">
                             <span>HTML</span>
                             <span>CSS</span>
-                            <!-- <span>JAVASCRIPT</span>-->
+                            <span>JAVASCRIPT</span>
                         </p>
                         <div class="projects_links">
                             <a href="" class="underline">View Project</a>
@@ -163,13 +188,14 @@
                         </div>
                     </div>
 
+                    <!-- Calculator App -->
                     <div class="projects_item">
-                        <img src="./Images/thumbnail-project-1-large.webp" alt="" class="project_image">
-                        <h3 class="projects_name">Design Portfolio</h3>
+                        <img src="./Images/calculator-desktop-preview.jpg" alt="" class="project_image">
+                        <h3 class="projects_name">Calculator App</h3>
                         <p class="projects_tags">
                             <span>HTML</span>
                             <span>CSS</span>
-                            <!-- <span>JAVASCRIPT</span>-->
+                            <span>JAVASCRIPT</span>
                         </p>
                         <div class="projects_links">
                             <a href="" class="underline">View Project</a>
@@ -177,13 +203,14 @@
                         </div>
                     </div>
 
+                    <!-- Tips Calculator App -->
                     <div class="projects_item">
-                        <img src="./Images/thumbnail-project-1-large.webp" alt="" class="project_image">
-                        <h3 class="projects_name">Design Portfolio</h3>
+                        <img src="./Images/tip-calculatordesktop-preview.jpg" alt="" class="project_image">
+                        <h3 class="projects_name">Tip Calculator App</h3>
                         <p class="projects_tags">
                             <span>HTML</span>
                             <span>CSS</span>
-                            <!-- <span>JAVASCRIPT</span>-->
+                            <span>JAVASCRIPT</span>
                         </p>
                         <div class="projects_links">
                             <a href="" class="underline">View Project</a>
@@ -191,13 +218,44 @@
                         </div>
                     </div>
 
+                    <!-- E-commerce product page -->
                     <div class="projects_item">
-                        <img src="./Images/thumbnail-project-1-large.webp" alt="" class="project_image">
-                        <h3 class="projects_name">Design Portfolio</h3>
+                        <img src="./Images/e-commercedesktop-preview.jpg" alt="" class="project_image">
+                        <h3 class="projects_name">E-commerce product page</h3>
                         <p class="projects_tags">
                             <span>HTML</span>
                             <span>CSS</span>
-                            <!-- <span>JAVASCRIPT</span>-->
+                            <span>JAVASCRIPT</span>
+                        </p>
+                        <div class="projects_links">
+                            <a href="" class="underline">View Project</a>
+                            <a href="" class="underline">View Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Room Homepage -->
+                    <div class="projects_item">
+                        <img src="./Images/room-desktop-preview.jpg" alt="" class="project_image">
+                        <h3 class="projects_name">Room Homepage</h3>
+                        <p class="projects_tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JAVASCRIPT</span>
+                        </p>
+                        <div class="projects_links">
+                            <a href="" class="underline">View Project</a>
+                            <a href="" class="underline">View Code</a>
+                        </div>
+                    </div>
+
+                    <!-- Time Tracking Dashboard -->
+                    <div class="projects_item">
+                        <img src="./Images/time-desktop-preview.jpg" alt="" class="project_image">
+                        <h3 class="projects_name">Time Tracking Dashboard</h3>
+                        <p class="projects_tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <!-- <span>JAVASCRIPT</span> -->
                         </p>
                         <div class="projects_links">
                             <a href="" class="underline">View Project</a>
@@ -313,6 +371,7 @@
             </nav>
         </div>
     </footer>
+
 </body>
 
 </html>

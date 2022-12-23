@@ -108,6 +108,7 @@ body {
     color: white;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 1.125rem;
+    margin: 0;
 }
 
 .wrapper {
@@ -143,6 +144,7 @@ body {
 .header_nav h2 a {
     font-size: 1.5rem;
     font-size: clamp(1.5rem, 1.02rem + 2.04vw, 2rem);
+    color: lightslategray;
     transition: color 250ms ease-in-out;
 }
 
@@ -151,6 +153,7 @@ body {
 }
 
 .header_social>svg>path {
+    fill: lightslategray;
     transition: fill 250ms ease-in-out;
 }
 
@@ -189,7 +192,7 @@ body {
 .hero_image {
     position: absolute;
     top: 0;
-    margin-top: -200px;
+    margin-top: -210px;
     right: -0;
     width: 55vw;
     max-width: 445px;
@@ -215,14 +218,6 @@ body {
     translate: -50% -50%;
 }
 
-.skills_ring {
-    position: absolute;
-    bottom: -10%;
-    right: 0%;
-    translate: 50% -50%;
-    height: auto;
-}
-
 .hero_text {
     position: relative;
     padding-top: 50px;
@@ -232,6 +227,7 @@ body {
 
 .hero_text h1 {
     margin-bottom: 60px;
+    color: lightgray;
 }
 
 .hero_text .break_1 {
@@ -289,8 +285,7 @@ body {
     }
 
     .hero_text {
-        padding-top: 10px;
-        padding-top: clamp(10px, 20vw, 180px);
+        padding-top: 45vw;
     }
 
     .hero_ring {
@@ -304,6 +299,12 @@ body {
         height: 129px;
     }
 
+}
+
+@media (max-width: 425px) {
+    .hero_text {
+        padding-top: 30vw;
+    }
 }
 
 
@@ -570,4 +571,20 @@ body {
 #footer {
     background: hsl(0, 0%, 14%);
     padding-block: 50px;
+}
+
+#footer h2 a {
+    color: white;
+}
+
+#footer .header_social>svg>path {
+    fill: white;
+}
+
+#footer h2 a:hover {
+    color: hsl(153, 71%, 59%);
+}
+
+#footer .header_social:hover>svg>path {
+    fill: hsl(153, 71%, 59%);
 }
